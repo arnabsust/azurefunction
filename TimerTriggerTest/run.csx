@@ -17,6 +17,7 @@ public class DataObject
 public static void Run(TimerInfo timer, TraceWriter log)
 {
     log.Info("============ HELLO ============");
+    log.Info("############ CHECKING CONTINUOUS INTEGRATION ############");
     log.Info(ConfigurationManager.AppSettings["GET_SOURCE_URL"]);
     log.Info(ConfigurationManager.AppSettings["API_KEY"]);
 
